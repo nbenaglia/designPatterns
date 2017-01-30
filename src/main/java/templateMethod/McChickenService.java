@@ -3,7 +3,7 @@ package templateMethod;
 public class McChickenService extends BurgerService {
 
     public void prepareMcChicken() {
-        System.out.println("\n****Preparing a McChicken****");
+        System.out.println("\n**** Preparing a McChicken ****");
         heatMeat(3);
         openBread();
         addMeat();

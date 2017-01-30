@@ -3,7 +3,7 @@ package templateMethod;
 public class BigMacService extends BurgerService {
 
     public void prepareBigMac() {
-        System.out.println("****Preparing a BigMac****");
+        System.out.println("**** Preparing a BigMac ****");
         heatMeat(2);
         openBread();
         addMeat();
