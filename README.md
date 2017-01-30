@@ -1,0 +1,1 @@
+Examples of most common design patterns, written in Java language.
