@@ -7,6 +7,7 @@ public class User {
     }
 
     public static void userAuto(){
+        // instance of facade object with all my logic embedded inside it
         AutomaticPictureFacade facade = new AutomaticPictureFacade();
         facade.takePicture();
     }
@@ -16,7 +17,7 @@ public class User {
         Film film = new Film();
         Shutter shutter = new Shutter();
 
-        // need to set all parameter before taking the picture
+        // need to set all parameters before taking the picture
         int speed = film.getSpeed();
         if (speed > 300.0) {
             aperture.setSize(6);
